@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{E6638C35-D256-4931-847B-75AA554731DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTest", "CalculatorTest\CalculatorTest.csproj", "{E31A2020-689F-4293-9829-37DEFCB778F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6638C35-D256-4931-847B-75AA554731DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6638C35-D256-4931-847B-75AA554731DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6638C35-D256-4931-847B-75AA554731DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6638C35-D256-4931-847B-75AA554731DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31A2020-689F-4293-9829-37DEFCB778F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31A2020-689F-4293-9829-37DEFCB778F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31A2020-689F-4293-9829-37DEFCB778F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31A2020-689F-4293-9829-37DEFCB778F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
