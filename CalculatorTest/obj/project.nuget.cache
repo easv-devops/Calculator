@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vY6IAYbrbJTT2+PXO3k0B4c7jENdLJ28yd6uB9wRp5y3hI1w3xnb8CM8A9y3MJUS1pqHGPYGgnegaMLa3I7RSg==",
+  "dgSpecHash": "XknqUyvbdOs8sVr2AF85+a6FhjLMu4K1HW+2Rj1x651RLkMjJRgy0bOFLZ+4mxunMnXKIUnV7/S+D/C8o9XS/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\RiderProjects\\Calculator\\CalculatorTest\\CalculatorTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.platforms\\8.0.0-preview.7.23375.6\\microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

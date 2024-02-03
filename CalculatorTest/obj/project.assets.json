@@ -41,7 +41,7 @@
           "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {
+      "Microsoft.NETCore.Platforms/8.0.0-preview.7.23375.6": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -385,6 +385,9 @@
       "Calculator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "8.0.0-preview.7.23375.6"
+        },
         "compile": {
           "bin/placeholder/Calculator.dll": {}
         },
@@ -537,19 +540,21 @@
         "microsoft.net.test.sdk.nuspec"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+    "Microsoft.NETCore.Platforms/8.0.0-preview.7.23375.6": {
+      "sha512": "ym5B/aglUc4K5kkiBOOgsm7EETjenJBbMchAHvcXpfFPmrdTrhnLKC1Tvx5Qnz5kHvhloyCNTpGQvWIpxvINHg==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.0",
+      "path": "microsoft.netcore.platforms/8.0.0-preview.7.23375.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.TestPlatform.ObjectModel/17.6.0": {
@@ -995,6 +1000,7 @@
     "net7.0": [
       "Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
+      "Microsoft.NETCore.Platforms >= 8.0.0-preview.7.23375.6",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.2.1",
@@ -1045,6 +1051,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.6.0, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "target": "Package",
+            "version": "[8.0.0-preview.7.23375.6, )"
           },
           "NUnit": {
             "target": "Package",
