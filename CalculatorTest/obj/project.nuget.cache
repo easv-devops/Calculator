@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ir7V+d6U9y1hMI9YBpGRF3l5gRpUgAyqQ30F5J/akCmFOYkTTaEX3PtTJWMYjxUOH9xAug5JJaIGYHcXMvKuKg==",
+  "dgSpecHash": "vY6IAYbrbJTT2+PXO3k0B4c7jENdLJ28yd6uB9wRp5y3hI1w3xnb8CM8A9y3MJUS1pqHGPYGgnegaMLa3I7RSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\chris\\RiderProjects\\Calculator\\CalculatorTest\\CalculatorTest.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "C:\\Users\\chris\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

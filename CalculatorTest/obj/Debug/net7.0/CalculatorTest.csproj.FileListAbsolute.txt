@@ -103,3 +103,4 @@ C:\Users\chris\RiderProjects\Calculator\CalculatorTest\obj\Debug\net7.0\refint\C
 C:\Users\chris\RiderProjects\Calculator\CalculatorTest\obj\Debug\net7.0\CalculatorTest.pdb
 C:\Users\chris\RiderProjects\Calculator\CalculatorTest\obj\Debug\net7.0\CalculatorTest.genruntimeconfig.cache
 C:\Users\chris\RiderProjects\Calculator\CalculatorTest\obj\Debug\net7.0\ref\CalculatorTest.dll
+C:\Users\chris\RiderProjects\Calculator\CalculatorTest\obj\Debug\net7.0\CalculatorTest.sourcelink.json

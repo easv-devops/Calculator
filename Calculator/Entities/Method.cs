@@ -2,62 +2,105 @@
 
 public class Method : ICalculator
 {
-    public int Result { get; }
+    public int Memory { get; set; }
+    public int Result { get; set; }
+    
     
     public void Reset()
     {
-        var Result = 0;
-
+        Result = 0;
     }
 
     public int Add(int x)
     {
-        
-        x += Result;
-        if (Result > 2147483646)
+        Result += x;
+        if (Result > 2147483646 || Result < -2147483647)
         {
             throw new OverflowException("Number is out of range");
         }
-
+        Console.WriteLine($"Result is: {Result}");
         return Result;
     }
 
     public int Subtract(int x)
     {
-        x -= Result;
-        if (Result < -2147483647)
+        Result -= x;
+        if (Result > 2147483646 || Result < -2147483647)
         {
             throw new OverflowException("Number is out of range");
         }
+        Console.WriteLine($"Result is: {Result}");
+
         return Result;
     }
 
     public int Multiply(int x)
     {
-        x *= Result;
-        if (Result >2147483646)
+        Result *= x;
+        if (Result > 2147483646 || Result < -2147483647)
         {
             throw new OverflowException("Number is out of range");
         }
+        Console.WriteLine($"Result is: {Result}");
 
         return Result;
         
     }
 
-    public void Divide(int x)
+    public int Divide(int x)
     {
-        if (Result == 0)
+        Result = 6;
+        if (x == 0)
         {
             throw new DivideByZeroException("Can't divide by zero");
-            
         }
-        x /= Result;
-        
+        Console.WriteLine($"Result is: {Result}");
+
+        Result /= x;
+        return Result;
     }
 
-    public void Modulus(int x)
+    public int Modulus(int x)
     {
-        x %= Result;
-        
+        Result = 4;
+        Result %= x;
+        Console.WriteLine($"Result is: {Result}");
+
+        return Result;
     }
+
+    public int ResetMemory()
+    {
+        Memory = 0;
+        return Memory;
+    }
+
+    public int MemoryAdd(int x)
+    {
+        Result = x + Memory;
+        if (Result > 2147483646 || Result < -2147483647)
+        {
+            throw new OverflowException("Number is out of range");
+        }
+        Memory = Result;
+        return Memory;
+    }
+
+    public int MemorySubtract(int x)
+    {
+        Result = Memory - x;
+        if (Result > 2147483646 || Result < -2147483647)
+        {
+            throw new OverflowException("Number is out of range");
+        }
+        Memory = Result;
+        return Memory;
+    }
+    
+    public int GetMemory()
+    {
+        Console.WriteLine($"Memory is: {Memory}");
+        return Memory;
+    }
+
 }

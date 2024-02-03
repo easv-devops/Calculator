@@ -1036,9 +1036,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -1080,15 +1077,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.9, 7.0.9]"
+            "version": "[7.0.14, 7.0.14]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.9, 7.0.9]"
+            "version": "[7.0.14, 7.0.14]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.9, 7.0.9]"
+            "version": "[7.0.14, 7.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -1096,7 +1093,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
