@@ -8,7 +8,7 @@ steps:
     commands: 
       - dotnet build
     
-  - name: text
+  - name: test
     image: mcr.microsoft.com/dotnet/sdk
     commands:
       - dotnet test 
