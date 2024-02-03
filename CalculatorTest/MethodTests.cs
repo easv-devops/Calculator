@@ -87,7 +87,7 @@ public class MethodTests
         Assert.That(memoryReset, Is.EqualTo(4));
 
         memoryReset = calculator.ResetMemory();
-        Assert.That(memoryReset,Is.EqualTo(1));
+        Assert.That(memoryReset,Is.EqualTo(0));
         Console.WriteLine($"MemoryReset is now {memoryReset} ");
     }
 }
